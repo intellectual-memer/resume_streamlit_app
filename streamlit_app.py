@@ -167,25 +167,27 @@ txt3('Project Management', '`Agile Methodology`, `Scrum`, `Kanban`, `Notion`')
 # st.markdown("[Twitter](https://x.com/curious_memer)")
 # st.markdown("[GitHub](https://github.com/intellectual-memer)")
 
-# st.markdown("""
-#     <a href="https://www.linkedin.com/in/preetesh-shivam/" style="color: #0077b5; text-decoration: none;">LinkedIn</a><br>
-#     <a href="https://x.com/curious_memer" style="color: #1DA1F2; text-decoration: none;">Twitter</a><br>
-#     <a href="https://github.com/intellectual-memer" style="color: #333; text-decoration: none;">GitHub</a>
-# """, unsafe_allow_html=True)
+st.markdown("""
+    <div style="display: flex; justify-content: center; gap: 20px;">
+        <a href="https://www.linkedin.com/in/preetesh-shivam/" style="background-color: rgba(211, 211, 211, 0.2); padding: 8px 16px; text-decoration: none; color: black; border-radius: 4px;">LinkedIn</a>
+        <a href="https://x.com/curious_memer" style="background-color: rgba(211, 211, 211, 0.2); padding: 8px 16px; text-decoration: none; color: black; border-radius: 4px;">Twitter</a>
+        <a href="https://github.com/intellectual-memer" style="background-color: rgba(211, 211, 211, 0.2); padding: 8px 16px; text-decoration: none; color: black; border-radius: 4px;">GitHub</a>
+    </div>
+""", unsafe_allow_html=True)
 
 # Create a container with light grey background
-with st.container():
-    # CSS for the background container
-    st.markdown("""
-        <div style="background-color: rgba(211, 211, 211, 0.2); padding: 20px; border-radius: 5px;">
-            <h3 style="margin-bottom: 15px;">Social Media</h3>
-            <div style="display: flex; justify-content: space-around; align-items: center;">
-                <a href="https://www.linkedin.com/in/preetesh-shivam/" style="color: #0077b5; text-decoration: none; font-size: 16px;">LinkedIn</a>
-                <a href="https://x.com/curious_memer" style="color: #1DA1F2; text-decoration: none; font-size: 16px;">Twitter</a>
-                <a href="https://github.com/intellectual-memer" style="color: #333; text-decoration: none; font-size: 16px;">GitHub</a>
-            </div>
-        </div>
-    """, unsafe_allow_html=True)
+# with st.container():
+#     # CSS for the background container
+#     st.markdown("""
+#         <div style="background-color: rgba(211, 211, 211, 0.2); padding: 20px; border-radius: 5px;">
+#             <h3 style="margin-bottom: 15px;">Social Media</h3>
+#             <div style="display: flex; justify-content: space-around; align-items: center;">
+#                 <a href="https://www.linkedin.com/in/preetesh-shivam/" style="color: #0077b5; text-decoration: none; font-size: 16px;">LinkedIn</a>
+#                 <a href="https://x.com/curious_memer" style="color: #1DA1F2; text-decoration: none; font-size: 16px;">Twitter</a>
+#                 <a href="https://github.com/intellectual-memer" style="color: #333; text-decoration: none; font-size: 16px;">GitHub</a>
+#             </div>
+#         </div>
+#     """, unsafe_allow_html=True)
                
 ## txt2('LinkedIn', 'https://www.linkedin.com/in/preetesh-shivam/')
 ## txt2('Twitter', 'https://x.com/curious_memer')
