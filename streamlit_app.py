@@ -167,6 +167,9 @@ txt3('Project Management', '`Agile Methodology`, `Scrum`, `Kanban`, `Notion`')
 # st.markdown("[Twitter](https://x.com/curious_memer)")
 # st.markdown("[GitHub](https://github.com/intellectual-memer)")
 
+st.markdown('''
+Social Media
+''')
 st.markdown("""
     <div style="display: flex; justify-content: center; gap: 20px;">
         <a href="https://www.linkedin.com/in/preetesh-shivam/" style="background-color: rgba(211, 211, 211, 0.2); padding: 8px 16px; text-decoration: none; color: black; border-radius: 4px;">LinkedIn</a>
