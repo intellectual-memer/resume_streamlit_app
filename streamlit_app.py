@@ -168,7 +168,7 @@ txt3('Project Management', '`Agile Methodology`, `Scrum`, `Kanban`, `Notion`')
 # st.markdown("[GitHub](https://github.com/intellectual-memer)")
 
 st.markdown("""
-Social Media
+## Social Media
 """)
 st.markdown("""
     <div style="display: flex; justify-content: center; gap: 20px;">
