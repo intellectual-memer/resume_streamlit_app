@@ -172,6 +172,13 @@ txt3('Project Management', '`Agile Methodology`, `Scrum`, `Kanban`, `Notion`')
 ## st.markdown('''
 ## Social Media
 ## ''')
+st.header("Social Media")
+
+# Using markdown for the links
+st.markdown("[LinkedIn](https://www.linkedin.com/in/preetesh-shivam/)")
+st.markdown("[Twitter](https://x.com/curious_memer)")
+st.markdown("[GitHub](https://github.com/intellectual-memer)")
+               
 ## txt2('LinkedIn', 'https://www.linkedin.com/in/preetesh-shivam/')
 ## txt2('Twitter', 'https://x.com/curious_memer')
 ## txt2('GitHub', 'https://github.com/intellectual-memer')
