@@ -160,12 +160,18 @@ txt3('Project Management', '`Agile Methodology`, `Scrum`, `Kanban`, `Notion`')
 ## st.markdown('''
 ## Social Media
 ## ''')
-st.header("Social Media")
+# st.header("Social Media")
 
-# Using markdown for the links
-st.markdown("[LinkedIn](https://www.linkedin.com/in/preetesh-shivam/)")
-st.markdown("[Twitter](https://x.com/curious_memer)")
-st.markdown("[GitHub](https://github.com/intellectual-memer)")
+# # Using markdown for the links
+# st.markdown("[LinkedIn](https://www.linkedin.com/in/preetesh-shivam/)")
+# st.markdown("[Twitter](https://x.com/curious_memer)")
+# st.markdown("[GitHub](https://github.com/intellectual-memer)")
+
+st.markdown("""
+    <a href="https://www.linkedin.com/in/preetesh-shivam/" style="color: #0077b5; text-decoration: none;">LinkedIn</a><br>
+    <a href="https://x.com/curious_memer" style="color: #1DA1F2; text-decoration: none;">Twitter</a><br>
+    <a href="https://github.com/intellectual-memer" style="color: #333; text-decoration: none;">GitHub</a>
+""", unsafe_allow_html=True)
                
 ## txt2('LinkedIn', 'https://www.linkedin.com/in/preetesh-shivam/')
 ## txt2('Twitter', 'https://x.com/curious_memer')
