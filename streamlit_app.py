@@ -172,9 +172,9 @@ st.header("Social Media")
 # ''')
 st.markdown("""
     <div style="display: flex; justify-content: center; gap: 20px;">
-        <a href="https://www.linkedin.com/in/preetesh-shivam/" style="background-color: rgba(211, 211, 211, 0.2); padding: 8px 16px; text-decoration: none; color: black; border-radius: 4px;">LinkedIn</a>
-        <a href="https://x.com/curious_memer" style="background-color: rgba(211, 211, 211, 0.2); padding: 8px 16px; text-decoration: none; color: black; border-radius: 4px;">Twitter</a>
-        <a href="https://github.com/intellectual-memer" style="background-color: rgba(211, 211, 211, 0.2); padding: 8px 16px; text-decoration: none; color: black; border-radius: 4px;">GitHub</a>
+        <a href="https://www.linkedin.com/in/preetesh-shivam/" style="text-decoration: none; color: #228B22;">LinkedIn</a>
+        <a href="https://x.com/curious_memer" style="text-decoration: none; color: #228B22;">Twitter</a>
+        <a href="https://github.com/intellectual-memer" style="text-decoration: none; color: #228B22;">GitHub</a>
     </div>
 """, unsafe_allow_html=True)
 
