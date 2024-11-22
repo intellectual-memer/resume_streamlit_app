@@ -171,10 +171,10 @@ st.header("Social Media")
 # ## Social Media
 # ''')
 st.markdown("""
-    <div style="display: flex; flex-direction: column; gap: 10px;">
-        <a href="https://www.linkedin.com/in/preetesh-shivam/" style="text-decoration: none; color: #228B22; background-color: rgba(211, 211, 211, 0.2); padding: 2px 4px;">LinkedIn</a>
-        <a href="https://x.com/curious_memer" style="text-decoration: none; color: #228B22; background-color: rgba(211, 211, 211, 0.2); padding: 2px 4px;">Twitter</a>
-        <a href="https://github.com/intellectual-memer" style="text-decoration: none; color: #228B22; background-color: rgba(211, 211, 211, 0.2); padding: 2px 4px;">GitHub</a>
+    <div style="display: flex; gap: 20px;">
+        <a href="https://www.linkedin.com/in/preetesh-shivam/" style="text-decoration: none; color: #228B22; background-color: rgba(211, 211, 211, 0.1); padding: 2px 4px;">LinkedIn</a>
+        <a href="https://x.com/curious_memer" style="text-decoration: none; color: #228B22; background-color: rgba(211, 211, 211, 0.1); padding: 2px 4px;">Twitter</a>
+        <a href="https://github.com/intellectual-memer" style="text-decoration: none; color: #228B22; background-color: rgba(211, 211, 211, 0.1); padding: 2px 4px;">GitHub</a>
     </div>
 """, unsafe_allow_html=True)
 
