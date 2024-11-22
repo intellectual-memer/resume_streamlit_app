@@ -157,18 +157,6 @@ txt3('Model deployment', '`streamlit`, `gradio`, `Heroku`, `AWS`')
 txt3('Project Management', '`Agile Methodology`, `Scrum`, `Kanban`, `Notion`')
 
 #####################
-<h2>Social Media</h2>
-<ul style="list-style: none; padding: 0;">
-    <li style="margin: 10px 0;">
-        <a href="https://www.linkedin.com/in/preetesh-shivam/" style="color: #0077b5; text-decoration: none;">LinkedIn</a>
-    </li>
-    <li style="margin: 10px 0;">
-        <a href="https://x.com/curious_memer" style="color: #1DA1F2; text-decoration: none;">Twitter</a>
-    </li>
-    <li style="margin: 10px 0;">
-        <a href="https://github.com/intellectual-memer" style="color: #333; text-decoration: none;">GitHub</a>
-    </li>
-</ul>
 ## st.markdown('''
 ## Social Media
 ## ''')
