@@ -86,6 +86,22 @@ def txt4(a, b, c):
   with col3:
     st.markdown(c)
 
+def project_item(title, description, link):
+    st.markdown(f'''
+        <div style="display: flex; gap: 20px; margin-bottom: 20px;">
+            <div style="flex: 1;">
+                <a href="{link}" style="text-decoration: none; color: #228B22;">{title}</a>
+            </div>
+            <div style="flex: 2;">
+                {description}
+            </div>
+        </div>
+    ''', unsafe_allow_html=True)
+
+st.markdown('''
+## Personal Projects
+''')
+
 
 #####################
 st.markdown('''
@@ -134,12 +150,31 @@ txt('**Bachelor of Engineering** (Computer Science), *Sir MVIT*, India',
 '2010-2014')
 
 #####################
-st.markdown('''
-## Personal Projects
-''')
-txt4('Live Stock Price Dashboard', 'Deployed a web-based live stock price dashboard app in Python using Streamlit framework.', 'https://livestockpricedb-ps-live-stock-price.streamlit.app/')
-txt4('Ecommerce Product Sales Dashboard', 'Designed an Ecommerce product sales dashboard in tableau to analyze sales and product trends for an Ecommerce while showcasing my tableau skills. Used demo data.', 'https://public.tableau.com/views/EcommerceProductSalesDashboard2024/Summary?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link')
-txt4('Profit & Loss Statement Dashboard', 'Designed a simple Profit & Loss FP&A dashboard to highlight my tableau skills. Used demo data.', 'https://public.tableau.com/views/Section1File_17238260404180/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link')
+
+# st.markdown('''
+# ## Personal Projects
+# ''')
+# txt4('Live Stock Price Dashboard', 'Deployed a web-based live stock price dashboard app in Python using Streamlit framework.', 'https://livestockpricedb-ps-live-stock-price.streamlit.app/')
+# txt4('Ecommerce Product Sales Dashboard', 'Designed an Ecommerce product sales dashboard in tableau to analyze sales and product trends for an Ecommerce while showcasing my tableau skills. Used demo data.', 'https://public.tableau.com/views/EcommerceProductSalesDashboard2024/Summary?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link')
+# txt4('Profit & Loss Statement Dashboard', 'Designed a simple Profit & Loss FP&A dashboard to highlight my tableau skills. Used demo data.', 'https://public.tableau.com/views/Section1File_17238260404180/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link')
+
+project_item(
+    'Live Stock Price Dashboard', 
+    'Deployed a web-based live stock price dashboard app in Python using Streamlit framework.',
+    'https://livestockpricedb-ps-live-stock-price.streamlit.app/'
+)
+
+project_item(
+    'Ecommerce Product Sales Dashboard',
+    'Designed an Ecommerce product sales dashboard in tableau to analyze sales and product trends for an Ecommerce while showcasing my tableau skills. Used demo data.',
+    'https://public.tableau.com/views/EcommerceProductSalesDashboard2024/Summary?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link'
+)
+
+project_item(
+    'Profit & Loss Statement Dashboard',
+    'Designed a simple Profit & Loss FP&A dashboard to highlight my tableau skills. Used demo data.',
+    'https://public.tableau.com/views/Section1File_17238260404180/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link'
+)
 
 #####################
 st.markdown('''
