@@ -90,7 +90,7 @@ def project_item(title, description, link):
     st.markdown(f'''
         <div style="display: flex; gap: 20px; margin-bottom: 20px;">
             <div style="flex: 1;">
-                <a href="{link}" style="text-decoration: none; color: #1a871a; background-color: rgba(211, 211, 211, 0.1); padding: 2px 4px;">{title}</a>
+                <a href="{link}" style="text-decoration: none; color: #09ab3b; background-color: rgba(211, 211, 211, 0.1); padding: 2px 4px;">{title}</a>
             </div>
             <div style="flex: 2;">
                 {description}
