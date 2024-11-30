@@ -18,7 +18,7 @@ st.markdown('## Professional Summary', unsafe_allow_html=True)
 st.markdown('''
 - Data Science & Analytics leader with over 10 years of experience in transforming complex business needs into scalable data-driven solutions.
 - Proven expertise in creating advanced Tableau visualizations, collaborating with stakeholders to refine requirements, and ensuring data quality through rigorous analysis and modeling.
-- Skilled in deploying predictive models and AI tools to enhance operational efficiency and drive impactful business decisions.
+- Skilled in deploying Machine Learning models and AI tools to enhance operational efficiency and drive impactful business decisions.
 ''')
 
 #####################
