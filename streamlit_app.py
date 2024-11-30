@@ -100,6 +100,29 @@ def project_item(title, description, link):
 
 
 #####################
+
+st.markdown('''
+## Projects
+''')
+
+project_item(
+    'AI Image Generator Web App', 
+    'Deployed a web-based AI image generator app in Streamlit framework.',
+    'https://imaginator.streamlit.app/'
+)
+
+project_item(
+    'AI Data Visualization Web App',
+    'Designed a web-based data viualization and AI insights dashboard that lets you plot visualizations using input data and generate insights from data using AI prompts. Working on adding additional data sources.',
+    'https://ai-data-visualization.streamlit.app/'
+)
+
+project_item(
+    'Ecommerce Product Sales Dashboard',
+    'Designed an Ecommerce product sales dashboard in tableau to analyze sales and product trends for an Ecommerce while showcasing my tableau skills. Used demo data.',
+    'https://public.tableau.com/views/EcommerceProductSalesDashboard2024/Summary?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link'
+)
+
 st.markdown('''
 ## Work Experience
 ''')
@@ -153,28 +176,6 @@ txt('**Bachelor of Engineering** (Computer Science), *Sir MVIT*, India',
 # txt4('Live Stock Price Dashboard', 'Deployed a web-based live stock price dashboard app in Python using Streamlit framework.', 'https://livestockpricedb-ps-live-stock-price.streamlit.app/')
 # txt4('Ecommerce Product Sales Dashboard', 'Designed an Ecommerce product sales dashboard in tableau to analyze sales and product trends for an Ecommerce while showcasing my tableau skills. Used demo data.', 'https://public.tableau.com/views/EcommerceProductSalesDashboard2024/Summary?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link')
 # txt4('Profit & Loss Statement Dashboard', 'Designed a simple Profit & Loss FP&A dashboard to highlight my tableau skills. Used demo data.', 'https://public.tableau.com/views/Section1File_17238260404180/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link')
-
-st.markdown('''
-## Personal Projects
-''')
-
-project_item(
-    'AI Image Generator Web App', 
-    'Deployed a web-based AI image generator app in Streamlit framework.',
-    'https://imaginator.streamlit.app/'
-)
-
-project_item(
-    'AI Data Visualization Web App',
-    'Designed a web-based data viualization and AI insights dashboard that lets you plot visualizations using input data and generate insights from data using AI prompts. Working on adding additional data sources.',
-    'https://ai-data-visualization.streamlit.app/'
-)
-
-project_item(
-    'Ecommerce Product Sales Dashboard',
-    'Designed an Ecommerce product sales dashboard in tableau to analyze sales and product trends for an Ecommerce while showcasing my tableau skills. Used demo data.',
-    'https://public.tableau.com/views/EcommerceProductSalesDashboard2024/Summary?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link'
-)
 
 #####################
 st.markdown('''
